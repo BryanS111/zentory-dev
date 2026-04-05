@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-950 text-gray-100;
+  }
+
+  .light body {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  .light .bg-gray-950 { background-color: #f8fafc !important; }
+  .light .bg-gray-900 { background-color: #ffffff !important; }
+  .light .bg-gray-800 { background-color: #f1f5f9 !important; }
+  .light .border-gray-800 { border-color: #e2e8f0 !important; }
+  .light .border-gray-700 { border-color: #cbd5e1 !important; }
+  .light .text-white { color: #0f172a !important; }
+  .light .text-gray-100 { color: #1e293b !important; }
+  .light .text-gray-400 { color: #475569 !important; }
+  .light .text-gray-500 { color: #64748b !important; }
+  .light .text-gray-600 { color: #94a3b8 !important; }
+  .light .text-gray-700 { color: #cbd5e1 !important; }
+}
